@@ -1,0 +1,161 @@
+
+:root{
+    --color1:#eb5e28;
+    --color2:#252422;
+    --color3:#403d39;
+    --color4:#ccc5b9;
+    --color5:#fffcf2;
+    --color6:#c24e20;
+    --fuente: "Montserrat", sans-serif;
+}
+
+/* globales */
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+/* tipografias */
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+
+h1,h2,h3{
+    text-align: center;
+}
+
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.margin-bot{
+    margin-bottom: 3rem;
+}
+
+/* menu */
+
+.menu{
+    background-color: var(--color1);
+}
+
+.menu__items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu__link{
+    padding: 2rem;
+    color: var(--color5);
+    text-transform: uppercase;
+    font-family: var(--fuente);
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.menu__link:hover{
+    background: var(--color6);
+}
+
+
+/* cards */
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card__item{
+    flex-basis: calc(100% - 1rem);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.171);
+}
+
+
+@media(min-width:576px){
+    .card__item{
+        flex-basis: calc(50% - 1rem);
+    }
+
+}
+
+@media(min-width: 768px){
+    .card__item{
+        flex-basis: calc(33.3% - 1rem);
+    }
+}
+
+
+.card__img{
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.card__title{
+    text-align: center;
+    font-family: var(--fuente);
+}
+
+.card__text{
+    line-height: 30px;
+    font-family: var(--fuente);
+    font-size: 1.4rem;
+}
+
+.card__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color1);
+    border-radius: 2rem;
+    color: var(--color5);
+    padding: .8rem 0;
+    transition: background-color .3s ease;
+}
+
+.card__button:hover{
+    background-color: var(--color6);
+}
+
+.card__button span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+

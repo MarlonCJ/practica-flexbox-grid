@@ -1,0 +1,67 @@
+
+🧪 Ejercicio 1: Menú de navegación (Flexbox)
+
+Requisitos:
+
+Crea un menú horizontal con 4 enlaces: Inicio, Servicios, Blog, Contacto.
+
+Deben estar alineados en una sola línea.
+
+Debe haber espacio igual entre los elementos.
+
+El fondo del menú debe ser oscuro y el texto claro.
+
+✅ Objetivo: Practicar display: flex, justify-content, background, color.
+
+========================================================
+
+
+🧪 Ejercicio 2: Tarjetas alineadas (Flexbox)
+
+Requisitos:
+Crea 3 tarjetas del mismo tamaño.
+
+Deben estar en una fila, centradas horizontalmente.
+
+Entre cada tarjeta debe haber un espacio de 20px.
+
+Las tarjetas deben tener un pequeño sombreado y estar centradas en la pantalla.
+
+✅ Objetivo: Practicar gap, box-shadow, align-items, justify-content.
+
+========================================================
+
+
+🧪 Ejercicio 3: Galería de imágenes (Grid)
+
+Requisitos:
+Crea una galería con 6 imágenes.
+
+Deben estar distribuidas en 3 columnas.
+
+Cada imagen debe ocupar el 100% del ancho de su celda.
+
+Agrega un espacio de 10px entre las imágenes.
+
+✅ Objetivo: Practicar grid-template-columns, gap, width.
+
+========================================================
+
+
+
+🧪 Ejercicio 4: Layout de blog (Grid avanzado)
+
+Requisitos:
+Crea una estructura de blog con 3 secciones:
+
+Encabezado (arriba, a lo ancho)
+
+Contenido principal (columna izquierda)
+
+Barra lateral (columna derecha)
+
+Usa grid-template-areas para definir el diseño.
+
+Aplica diferentes colores de fondo para distinguir cada área.
+
+✅ Objetivo: Practicar grid-template-areas, grid-template-columns, estructura visual.
